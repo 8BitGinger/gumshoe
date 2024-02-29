@@ -55,6 +55,7 @@ main {
 
 .backer {
   background-image: url('./assets/newspaper.jpg');
+  background-attachment: scroll;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -469,6 +470,7 @@ main {
 
   .container-photo {
     min-width: 100%;
+    max-height: 100vw;
     margin: 0;
     margin-top: -5px;
   }

@@ -370,7 +370,8 @@ main {
 }
 
 .avatar3 {
-  border-radius: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .city {

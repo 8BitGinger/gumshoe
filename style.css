@@ -493,15 +493,6 @@ main {
     flex-direction: column;
   }
 
-  .page {
-    overflow-x: hidden;
-    max-width: 105vw;
-  }
-
-  nav {
-    display: none;
-  }
-
   main {
     overflow-x: hidden;
     overflow-y: scroll;

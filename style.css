@@ -344,6 +344,7 @@ main {
 
 .big {
   font-size: 60px;
+  text-align: center;
 }
 
 .avatar img,
@@ -537,6 +538,8 @@ main {
   }
   .big {
     font-size: 60px;
+    text-align: center;
+    margin-left: -5px;
   }
 
   .classes {
@@ -562,6 +565,10 @@ main {
 
   .headline {
     max-width: 100%;
+  }
+
+  .clue li {
+    font-size: 35px;
   }
 
   .mute {

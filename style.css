@@ -80,7 +80,7 @@ main {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   font: bold;
-
+  width: 100%;
   margin: auto;
   padding: 20px;
   margin-top: 20px;

@@ -52,7 +52,7 @@ main {
 }
 
 .card3 {
-  max-width: 70%;
+  max-width: fit-content;
 }
 
 .card2 {
@@ -479,7 +479,6 @@ body {
   border: 3px dotted black;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  padding: 30px;
   background-image: radial-gradient(
     rgba(245, 246, 237, 0.874),
     rgba(234, 234, 200, 0.874)
@@ -490,13 +489,13 @@ body {
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .form label {
-  background-image: linear-gradient(rgb(67, 54, 15), rgb(118, 117, 117));
+  /* background-image: linear-gradient(rgb(67, 54, 15), rgb(118, 117, 117)); */
   width: 100%;
-  border: rgb(95, 58, 18) 2px solid;
-  color: white;
+  /* border: rgb(95, 58, 18) 2px solid; */
 }
 
 .weapons {
@@ -519,7 +518,7 @@ select {
   border-radius: 5px;
   width: 90%;
   height: 40px;
-  margin: 10px;
+
   max-width: 500px;
   font-size: 20px;
   background-image: radial-gradient(
@@ -547,7 +546,7 @@ select {
 .box {
   display: flex;
   flex-direction: column;
-  min-width: 50%;
+  max-width: 50%;
   margin: 10px;
   justify-content: center;
   text-align: center;
@@ -639,7 +638,8 @@ select {
   border-radius: 3px;
   text-align: center;
   justify-self: center;
-  width: 60%;
+  width: fit-content;
+  padding-right: 25px;
   border-radius: 5px;
 }
 
@@ -691,9 +691,17 @@ select {
   color: white;
 }
 
+.dice img {
+  max-width: 100%;
+}
+
 .row2 {
   display: flex;
   flex-direction: row;
+}
+
+.role {
+  max-width: 40%;
 }
 
 .hide {
@@ -794,6 +802,10 @@ select {
 
   .column {
     flex-direction: column;
+  }
+
+  .role {
+    max-width: 80%;
   }
 
   main {

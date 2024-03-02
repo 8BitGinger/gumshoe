@@ -47,9 +47,9 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Links
 
-[Deployed]()
+[Deployed](https://8bitginger.github.io/gumshoe/)
 
-[Repo]()
+[Repo](https://github.com/8BitGinger/gumshoe)
 
 ---
 
@@ -67,4 +67,4 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 #### GitHub:
 
-[8BitGinger]()
+[8BitGinger](https://github.com/8BitGinger)

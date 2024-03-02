@@ -288,6 +288,11 @@ main {
   text-decoration: none;
 }
 
+.overlay {
+  background-color: rgba(0, 0, 0, 0.739);
+  height: 100%;
+}
+
 .instructions a:hover {
   color: white;
 }
@@ -352,6 +357,12 @@ main {
   max-width: 50%;
 
   margin: 10px;
+}
+
+.avatar4 {
+  width: 50%;
+  max-width: 400px;
+  margin-right: 15px;
 }
 
 .clue ul img {

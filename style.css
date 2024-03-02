@@ -375,9 +375,24 @@ main {
 
 .clue ul img {
   margin: 10px 0px;
-  border-top: 3px dashed black;
-  border-bottom: 3px dashed black;
+
   max-width: 100%;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.round img {
+  border-radius: 50%;
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.424);
+  height: 350px;
 }
 
 .develop {
@@ -412,7 +427,8 @@ main {
   align-items: center;
   margin: auto;
   border: 3px dotted black;
-  border-radius: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
   padding: 30px;
   background-image: radial-gradient(
     rgba(245, 246, 237, 0.874),
@@ -423,12 +439,13 @@ main {
   color: black;
   font-size: 30px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .form label {
-  background-color: rgb(103, 89, 17);
+  background-color: rgba(103, 89, 17, 0.693);
   width: 100%;
-  border-radius: 8px;
+
   color: white;
 }
 
@@ -559,6 +576,20 @@ select {
 
 .col a:hover {
   scale: 1.1;
+}
+
+.stripe li {
+  background-color: rgba(148, 142, 118, 0.428);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.stripe li:hover {
+  background-color: rgba(148, 142, 118, 0.7);
+  scale: 1.1;
+  color: white;
 }
 
 .hide {
@@ -736,5 +767,10 @@ select {
 
   .twin {
     flex-direction: column;
+  }
+
+  .round img {
+    width: 250px;
+    height: 250px;
   }
 }

@@ -11,34 +11,44 @@
   </head>
   <body class="backer">
     <main class="overlay container">
-                  <h1>Gumshoe Character Design</h1>
-
+      
       <div class="twin">
       <section class="container">
 
-        <h2>Character Design</h2>
+        <h1>Character Design</h1>
         <p class="col">
           <img class="avatar5" src="../assets/partners.jpg" alt="man and woman staring at each other">
           Gumshoe is a detective game set in a neon-noir city. The game is
           designed to be played by friends cooperatively as a TTRPG.
 
           In order to fully immerse the players in the world of Gumshoe, we first need to create a character for them to play. This character will be the player's avatar in the game, and will be used to interact with the world and other characters. The character will have a name, a backstory, and a class that provides a set of skills and items that will help them solve the case.
-        </p>
-
-        <p class="col">
+          <br>
+          <br>
           The backstory will help the player understand the character's motivations and goals. It will also help the player understand the character's place in the world, and how they fit into the story of the game.  Work with your Story Teller to come up with a backstory that works with within his Adventure and the world of Gumshoe.
-          <img class="avatar5" src="../assets/backstory.jpg" alt="man standing with fedora">
         </p>
 
-               <p class="col">
-          DESCRIPTION OF CHAR SHEET HERE
-          <img class="avatar5" src="../assets/shootout.png" alt="thugs with guns">
-        </p>
+
+               
+        <section class="container form">
+          <img class="avatar5" src="../assets/backstory.jpg" alt="man standing with fedora">
+          <h3 style="text-align: center">Character Sheet Info</h3>
+          <ul class="stripe">
+            <li>HP - Hit Points.  This is the total points of damage you can take before meeting your end.</li>
+            <li>XP - Experience Points.  This is the total points you have earned through your adventures.  You can use these points to unlock Clues, Purchase Hot Items, or upgrade your contraptions!</li>
+            <li>Luck - This is the total points you have to use to reroll a dice roll.  You can use these points to reroll a dice roll that you are not happy with the outcome.</li>
+            <li>Points - These are the total points you have to spend on your character.  You can use these points to upgrade your character's stats.</li>
+            <li>Attack - This represents which dice you roll for your attack rolls.  D4 - D20.</li>
+            <li>Defense - This represents which dice you roll for your defense rolls.  D4 - D20.</li>
+          </ul>
+        </section>
+
+   
+       
 
       </section>
 
       <section class="container">
-        <h2>Character Builder</h2>
+        <h1>Character Builder</h1>
         
           <form class="form">
             <div class="develop">
@@ -107,8 +117,11 @@
               <br>
             <label for="weapons">Name:</label>
               <input type="text" id="weapons" name="weapons" required>
-              <label for="type">Type:</label>
-              <input type="text" id="type" name="type" required>
+              <label for="type">Type</label>
+                     <select for="type">Type:
+                <option value="melee">Melee</option>
+                <option value="short">Short</option>
+                </select>
               <label for="range">Range:</label>
               <input type="number" class="int" id="range" name="range" required>ft
               <label for="damage">Damage:</label>
@@ -123,6 +136,9 @@
             <br>
             <input type="submit" class="btn" value="Submit">
           </form>
+          <div class="round">
+              <img  src="../assets/neon-car.jpg" alt="car">
+          </div>
           </div>
         <a href="./app.html" class="btn column home" >Back Home</button>
 </a>

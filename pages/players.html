@@ -3,37 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css" />
     <title>Gumshoe Character Design</title>
   </head>
   <body class="backer">
-    <main class="overlay">
+    <main class="overlay container">
+                  <h1>Gumshoe Character Design</h1>
+
+      <div class="twin">
       <section class="container">
-            <h1>Gumshoe Character Design</h1>
 
         <h2>Character Design</h2>
-        <p class="column">
-          <img class="avatar4" src="../assets/partners.jpg" alt="man and woman staring at each other">
+        <p class="col">
+          <img class="avatar5" src="../assets/partners.jpg" alt="man and woman staring at each other">
           Gumshoe is a detective game set in a neon-noir city. The game is
           designed to be played by friends cooperatively as a TTRPG.
 
           In order to fully immerse the players in the world of Gumshoe, we first need to create a character for them to play. This character will be the player's avatar in the game, and will be used to interact with the world and other characters. The character will have a name, a backstory, and a class that provides a set of skills and items that will help them solve the case.
         </p>
 
-        <p class="column">
+        <p class="col">
           The backstory will help the player understand the character's motivations and goals. It will also help the player understand the character's place in the world, and how they fit into the story of the game.  Work with your Story Teller to come up with a backstory that works with within his Adventure and the world of Gumshoe.
-          <img class="avatar4" src="../assets/backstory.jpg" alt="man standing with fedora">
+          <img class="avatar5" src="../assets/backstory.jpg" alt="man standing with fedora">
+        </p>
+
+               <p class="col">
+          DESCRIPTION OF CHAR SHEET HERE
+          <img class="avatar5" src="../assets/shootout.png" alt="thugs with guns">
         </p>
 
       </section>
 
       <section class="container">
         <h2>Character Builder</h2>
-        <p>
-          FORM HERE
-        <a href="./app.html" class="btn home" >Back Home</button>
+        
+          <form class="form">
+            <div class="develop">
+            <h3>Develop Your Character!</h3>
+            <img src="../assets/twin-dame.png" class="avatar5" alt="city sign">
+            </div>
+            <label for="name">Character Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="backstory">Character Backstory:</label>
+            <textarea id="backstory" name="backstory" required></textarea>
+            <br>
+            <label for="classes">Character Class:</label>
+            <select id="classes" name="class" required>
+              <option value="private-eye">Private Eye</option>
+              <option value="reporter">Reporter</option>
+              <option value="musician">Musician</option>
+              <option value="gangster">Gangster</option>
+              <option value="politician">Politician</option>
+              <option value="photographer">Photographer</option>
+              <option value="dancer">Bulesque Dancer</option>
+              <option value="dealer">Card Dealer</option>
+              <option value="driver">Cab Driver</option>
+
+            </select>
+            <br>
+            <div class="column">
+              <div class="box">
+            <label for="hp">HP:</label>
+            <input type="number" class="int" id="hp" name="hp" required>
+            </div>
+            <div class="box">
+            <label for="xp">XP:</label>
+            <input type="number" class="int" id="xp" name="xp" required>
+            </div>
+            </div>
+            <br>
+
+            <div class="column">
+            <div class="box">
+            <label for="hp">Luck:</label>
+            <input type="number" class="int" id="luck" name="luck" required>
+            </div>
+            
+            <div class="box">
+            <label for="xp">Points:</label>
+            <input type="number" class="int" id="points" name="points" required>
+            </div>
+            </div>
+            <div class="column">
+              <div class="box">
+            <label for="attack">Attack:</label>
+            <input type="number" class="int" id="attack" name="attack" required>
+            </div>
+            <div class="box">
+            <label for="defense">Defense:</label>
+            <input type="number" class="int" id="defense" name="defense" required>
+            </div>
+            </div>
+            <br>
+            <label for="items">Items:</label>
+            <textarea id="items" name="items" required></textarea>
+            <br>
+            <div class="weapons">
+              <h1 class="full">Weapon</h1>
+              <br>
+            <label for="weapons">Name:</label>
+              <input type="text" id="weapons" name="weapons" required>
+              <label for="type">Type:</label>
+              <input type="text" id="type" name="type" required>
+              <label for="range">Range:</label>
+              <input type="number" class="int" id="range" name="range" required>ft
+              <label for="damage">Damage:</label>
+              <input type="text" class="int" id="damage" name="damage" required>
+                 <label for="ammo">Ammunition:</label>
+              <input type="number" class="int" id="ammo" name="ammo" required>units
+
+              
+            </div>
+            <label for="notes" class="notes">Notes:</label>
+            <textarea id="notes" name="notes" required></textarea>
+            <br>
+            <input type="submit" class="btn" value="Submit">
+          </form>
+          </div>
+        <a href="./app.html" class="btn column home" >Back Home</button>
 </a>
-          </p>
+          
 </section>
 
   </body>

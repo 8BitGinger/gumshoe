@@ -12,6 +12,10 @@ root {
   background-size: cover;
 }
 
+break {
+  width: 100%;
+}
+
 .btn {
   width: 100px;
   height: fit-content;
@@ -24,6 +28,32 @@ root {
   padding: 5px;
   text-align: center;
   cursor: pointer;
+}
+
+.card {
+  width: 80%;
+  margin: 15px auto;
+  font-size: 25px;
+  background-image: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(234, 234, 200, 0.874)
+  );
+  padding: 25px;
+  color: rgb(45, 37, 17);
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-wrap: wrap;
+  border: 3px solid black;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  max-width: 50%;
+  margin: 10px;
 }
 
 .btn-foot {
@@ -497,6 +527,22 @@ select {
   margin: 10px;
   justify-content: center;
   text-align: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+  margin: 10px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+
+  background-image: radial-gradient(rgb(181, 159, 124), black);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  padding: 20px;
 }
 
 .box input {

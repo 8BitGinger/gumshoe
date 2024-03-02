@@ -6,11 +6,13 @@ const icon2 = document.getElementsByClassName('page-top')[1];
 const icon3 = document.getElementsByClassName('page-top')[2];
 const icon4 = document.getElementsByClassName('page-top')[3];
 const icon5 = document.getElementsByClassName('page-top')[4];
+const icon6 = document.getElementsByClassName('page-top')[5];
 
 const mystery = document.getElementById('mystery');
 
 mystery.addEventListener('click', () => {
   const audio = sound;
+  audio.volume = 0.5;
   playAudio(audio);
 });
 
@@ -50,4 +52,5 @@ function spinIcon() {
   icon3.style.transform = `rotate(${window.scrollY}deg)`;
   icon4.style.transform = `rotate(${window.scrollY}deg)`;
   icon5.style.transform = `rotate(${window.scrollY}deg)`;
+  icon6.style.transform = `rotate(${window.scrollY}deg)`;
 }

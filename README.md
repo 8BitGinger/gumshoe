@@ -110,6 +110,11 @@ I generated the artwork and the music track from:
 
 It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results!
 
+FootPrints and Penrose Triangle from:
+[pngTree](https://pngtree.com/)
+
+Intro screen re-mixed on: [Spline](https://spline.design/)
+
 ---
 
 <div id="contact"></div>

@@ -1,10 +1,18 @@
 const song = new Audio('../assets/background2.mp3');
+const sound = new Audio('../assets/dramatic.mp3');
 const muteBtn = document.getElementById('mute');
 const icon1 = document.getElementsByClassName('page-top')[0];
 const icon2 = document.getElementsByClassName('page-top')[1];
 const icon3 = document.getElementsByClassName('page-top')[2];
 const icon4 = document.getElementsByClassName('page-top')[3];
 const icon5 = document.getElementsByClassName('page-top')[4];
+
+const mystery = document.getElementById('mystery');
+
+mystery.addEventListener('click', () => {
+  const audio = sound;
+  playAudio(audio);
+});
 
 window.onscroll = function () {
   const audio = song;

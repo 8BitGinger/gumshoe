@@ -48,7 +48,10 @@ break {
 
 .card2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card img {
@@ -78,9 +81,6 @@ body {
 }
 
 main {
-  width: 100%;
-  margin: auto;
-  margin-top: -5px;
 }
 
 .backer {
@@ -413,6 +413,13 @@ main {
   transform: rotate(180deg);
 }
 
+.icon {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
 .round img {
   border-radius: 50%;
   width: 350px;
@@ -423,6 +430,13 @@ main {
   margin-top: 20px;
   border: 2px solid rgba(0, 0, 0, 0.424);
   height: 350px;
+}
+
+.round img:hover {
+  animation: shake 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
 .develop {
@@ -532,17 +546,24 @@ select {
 .box2 {
   display: flex;
   flex-direction: column;
-  min-width: 25%;
+  width: 35%;
+
   margin: 10px;
   font-size: 20px;
   justify-content: center;
   text-align: center;
 
-  background-image: radial-gradient(rgb(181, 159, 124), black);
+  background-image: radial-gradient(rgb(181, 159, 124), rgba(0, 0, 0, 0.818));
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
   padding: 20px;
+}
+
+.box2:hover {
+  text-align: center;
+  scale: 2;
+  width: fit-content;
 }
 
 .box input {
@@ -655,6 +676,29 @@ select {
   }
 }
 
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header {
     margin-bottom: 5px;
@@ -687,6 +731,10 @@ select {
     display: flex;
     flex-direction: column;
     max-width: 100vw;
+  }
+
+  .card {
+    width: 70%;
   }
 
   .intro img {
@@ -723,6 +771,15 @@ select {
   .btn-holder img {
     width: 100%;
     height: 100%;
+  }
+
+  .box2 {
+    width: 95%;
+  }
+
+  .box2:hover {
+    scale: 1.5;
+    max-width: 90%;
   }
 
   .float {

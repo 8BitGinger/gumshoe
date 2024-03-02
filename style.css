@@ -9,6 +9,7 @@ root {
   background-image: url('./assets/news-back.jpg');
   background-position: center;
   background-size: cover;
+  margin: 0;
 }
 
 break {
@@ -77,9 +78,6 @@ body {
   font-style: normal;
   overflow-x: hidden;
   overflow-y: scroll;
-}
-
-main {
 }
 
 .backer {
@@ -486,9 +484,9 @@ main {
 }
 
 .form label {
-  background-color: rgba(103, 89, 17, 0.693);
+  background-image: linear-gradient(rgb(67, 54, 15), rgb(118, 117, 117));
   width: 100%;
-
+  border: rgb(95, 58, 18) 2px solid;
   color: white;
 }
 
@@ -515,6 +513,10 @@ select {
   margin: 10px;
   max-width: 500px;
   font-size: 20px;
+  background-image: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(234, 234, 200, 0.874)
+  );
 }
 
 .twin {
@@ -755,11 +757,11 @@ select {
   }
 
   .backer {
-    background-image: url('./assets/newspaper-mobile.jpg');
-    background-attachment: scroll;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url(./assets/newspaper-mobile.jpg) center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
 
   .btn-holder {

@@ -17,6 +17,8 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 1. [Screenshots](#screenshots)
 1. [Links](#links)
 1. [Gameplay](#gameplay)
+1. [Roadmap](#roadmap)
+1. [Credits](#credits)
 1. [Contact](#contact)
 
 ---
@@ -51,11 +53,62 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 [Repo](https://github.com/8BitGinger/gumshoe)
 
+#### Downloads
+
+[Character Sheet]()
+
+[Starter Adventure]()
+
 ---
 
 <div id="gameplay"></div>
 
 ## Gameplay
+
+<details closed>
+<summary> Players </summary>
+<br>
+
+Player Info Here
+
+</details>
+
+<details closed>
+<summary>Story Tellers</summary>
+<br>
+
+Story Teller Info Here
+
+</details>
+
+<details closed>
+<summary>Rules</summary>
+<br>
+
+Rules Info Here
+
+</details>
+
+---
+
+<div id="roadmap"></div>
+
+## Roadmap
+
+Would like to add database functionality for User Accounts, and Saved Characters, Fully Functional Database of Items and Equipment, as Well as a more thorough Character Builder that will print to PDF format
+
+---
+
+<div id="credits"></div>
+
+## Credits
+
+#### Graphics and Music:
+
+I generated the artwork and the music track from:
+[AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
+
+It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results!
 
 ---
 

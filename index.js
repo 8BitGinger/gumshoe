@@ -16,6 +16,7 @@ mystery.addEventListener('click', () => {
 
 window.onscroll = function () {
   const audio = song;
+  audio.volume = 0.3;
   playAudio(audio);
 };
 
@@ -28,7 +29,7 @@ function playAudio(audio) {
 muteBtn.addEventListener('click', () => {
   if (song.muted) {
     song.muted = false;
-    alert('Unmuted');
+    // alert('Unmuted');
   } else {
     song.muted = true;
     alert('Muted');

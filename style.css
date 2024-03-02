@@ -6,7 +6,6 @@ root {
 .header {
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
   background-image: url('./assets/news-back.jpg');
   background-position: center;
   background-size: cover;
@@ -65,7 +64,7 @@ break {
 }
 
 .btn-foot:hover {
-  color: crimson;
+  background-color: rgb(85, 23, 23) !important;
 }
 
 body {
@@ -756,7 +755,11 @@ select {
   }
 
   .backer {
-    max-width: 100vw;
+    background-image: url('./assets/newspaper-mobile.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .btn-holder {

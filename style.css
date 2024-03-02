@@ -52,7 +52,7 @@ main {
 }
 
 .card3 {
-  width: 400px;
+  max-width: 70%;
 }
 
 .card2 {
@@ -485,7 +485,7 @@ body {
     rgba(234, 234, 200, 0.874)
   );
   border: 3px solid black;
-  max-width: 400px;
+  max-width: 70%;
   color: black;
   font-size: 30px;
   text-align: center;

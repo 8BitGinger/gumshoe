@@ -106,11 +106,16 @@ Will be adding more than just the starter adventure during future development.
 - Gumshoe Hollywoodland
   ![Screenshot](./assets/readme/hollywoodland-sepia.jpg)
 
+  The smog hung heavy over Tinseltown, a sickly yellow halo above the hazy dreamscape. Here, ambition dripped like sweat under the merciless California sun, where fortunes were made and shattered faster than a celluloid kiss. Dames with million-dollar smiles hawked their wares, and chisel-jawed fellas with steely gazes dreamt of the silver screen. But beneath the glitz, a darkness festered. Whispers slithered through back alleys, tales of things unnatural, of creatures from beyond the frame. Hollywoodland, they called it. More like Hollyweirdland, a place where the scripts got stranger than anything dreamed up by a drunken screenwriter. You, chum, are the only shamus with the guts (and the bottle) to wade through this celluloid nightmare.
+
 - Gumshoe Russian Nights
   ![Screenshot](./assets/readme/russiannights-sepia.jpg)
 
+  Moscow, a frozen tomb bathed in perpetual twilight. Not exactly your typical tourist trap. You, a gumshoe with a nose for trouble and a taste for cheap vodka, were partnered with Nika Arovka, a Soviet ambassador with a smile too sharp and eyes like glacial ice. Whispers of strange men in uniforms and ancient alien devices with world-ending power sent you both hurtling through this frozen hell. Tracked once again by the Mysterious Penrose Division: you, a down-on-your-luck detective, and a femme fatale with buried secrets, were all that stood between oblivion and a world cracked open like a rotten egg.
+
 - Gumshoe Agents of the Multiverse
   ![Screenshot](./assets/readme/multiverse-sepia.jpg)
+  The last case went sideways faster than a greased getaway car. Now, you find yourself yanked from the familiar grime and grit and deposited in... well, who even knows? The Penrose Division, that's what they call themselves. Seems this rabbit hole runs deeper than a bootleg speakeasy. Multiverse travel, alternate realities, alien threats, the whole kit and kaboodle. All under the steely gaze of your new boss, April Sunday. A dame with a name that wouldn't be out of place in a bygone era, stuck in a world that makes yesterday's case look like a walk in the park. One thing's for sure, shamus: the gloves are off. Crack the case, stop whatever's bleeding through the seams of reality, and maybe, just maybe, impress Ms. Sunday enough to learn the mystery that started this whole adventure!
 
   </details>
 

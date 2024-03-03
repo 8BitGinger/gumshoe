@@ -27,6 +27,8 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Screenshots
 
+![logo](./assets/readme/neoncity-sepia.jpg)
+
 ![screenshot](./assets/readme/gumshoe-main-rm.png)
 
 ![screenshot](./assets/readme/GIFMaker_me.gif)
@@ -116,6 +118,12 @@ Will be adding more than just the starter adventure during future development.
   ![Screenshot](./assets/readme/hollywoodland-sepia.jpg)
 
   > The smog hung heavy over Tinseltown, a sickly yellow halo above the hazy dreamscape. Here, ambition dripped like sweat under the merciless California sun, where fortunes were made and shattered faster than a celluloid kiss. Dames with million-dollar smiles hawked their wares, and chisel-jawed fellas with steely gazes dreamt of the silver screen. But beneath the glitz, a darkness festered. Whispers slithered through back alleys, tales of things unnatural, of creatures from beyond the frame. Hollywoodland, they called it. More like Hollyweirdland, a place where the scripts got stranger than anything dreamed up by a drunken screenwriter. You, chum, are the only shamus with the guts (and the bottle) to wade through this celluloid nightmare.
+
+- Gumshoe Revenge in Rio
+
+  ![Screenshot](./assets/readme/riorevenge-sepia.jpg)
+
+  > The Amazon humidity hung heavy in Rio, a suffocating cloak over the vibrant chaos. Christ the Redeemer, its skeletal form reaching towards the hazy sky, offered no solace. Here, in 1936 Rio, the samba pulsed with a darker rhythm. I, a weary gumshoe used to the grit of New York City, had arrived for some sun-drenched R&R. But past sins are like stray bullets, they have a way of finding you, even in paradise. A face from a forgotten case materialized across the casino floor – Frankie "The Fox" Moretti, a hood I put away back in '32. He shouldn't be here, breathing, radiating barely contained rage. Looks like my Rio vacation just took a sharp turn into a labyrinth of showgirls with deadly secrets, a murder threatening to ignite a war, and Frankie "The Fox" Moretti thirsting for revenge as cold as a Rio night. This dame in distress wouldn't be wearing a swimsuit, but a shroud.
 
 - Gumshoe Russian Nights
 

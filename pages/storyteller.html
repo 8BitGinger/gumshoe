@@ -14,13 +14,24 @@
   </head>
   <body class="backer">
     <main class="overlay">
-      <section class="container">
+      <section id="top" class="container">
         <h1>
           <img id="iconST" class="page-top" src="../assets/penrosev1.png" />
           Story Tellers
         </h1>
 
-        <h3>Clues</h3>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="./app.html">Home</a></li>
+            <li><a href="#clues">Clues</a></li>
+            <li><a href="#combat">Combat</a></li>
+            <li><a href="#gameplay">Gameplay</a></li>
+            <li><a href="#neoncity">Neon City</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+          </ul>
+        </nav>
+
+        <h3 id="clues">Clues</h3>
 
         <p class="card column">
           The key is knowing your audience. Seasoned gumshoes can sniff out a
@@ -50,7 +61,8 @@
           players to find the right balance.
           <br />
           <br />
-          Discovering Clues is based on a Percentile 2 D10 or 1 D100 Roll:
+          Discovering Clues is based on a Percentile 2 D10 or 1 D100 Roll +
+          Invenstigation Skill Bonus':
           <br />
           Unmissable Clue - 0 - 25%
           <br />
@@ -67,7 +79,7 @@
           them. They can be very frustrating for your players.
         </p>
 
-        <h3>Follow the C.L.U.E. Principles!</h3>
+        <h3>Follow the C.L.U.E.s!</h3>
 
         <ul class="clue">
           <div class="row">
@@ -142,9 +154,14 @@
           <div class="row reverse">
             <img src="../assets/footsteps.png" alt="footsteps" />
           </div>
+          <div class="btn-holder">
+            <a href="#top"
+              ><button id="topBtn" class="btn">Back to Top</button></a
+            >
+          </div>
         </ul>
 
-        <h3>Combat</h3>
+        <h3 id="combat">Combat</h3>
 
         <p class="card column">
           Combat can be the heart-pounding crescendo, the bullet-dodging ballet
@@ -182,7 +199,7 @@
           <br />
           <br />
           If the Defense Roll is higher than the Attack Roll, the attack is
-          blocked or dodged.
+          blocked or dodged. Ties always go to defesnse.
         </p>
 
         <p class="card column">
@@ -193,19 +210,23 @@
           <br />
           If the attacker rolls a 1, it is a critical miss and the attack not
           only fails, but suffes a mishap, such as a misfiring gun or dropping
-          their knife (StoryTeller Choice). If the defender rolls the highest
-          possible defense, it is a critical block and the attack is not only
-          blocked or dodged, but they gain an attack of Opportunity.
+          their knife. If the defender rolls the highest possible defense, it is
+          a critical block and the attack is not only blocked or dodged, but
+          they gain an attack of Opportunity.
+          <br />
+          If the player Attack is higher than the players, but the player rolls
+          Critical Dodge then it is still considered a miss!
           <br />
           <br />
-          ATTACK OF OPPORTUNITY When a player gains an Attack of Opportunity
-          they automatically get the very next attack to the opponent who they
-          critically dodged. After the attack/defense rolls it returns to
-          standard turn order.
+          ATTACK OF OPPORTUNITY
+          <br />
+          When a player gains an Attack of Opportunity they automatically get
+          the very next attack to the opponent who they critically dodged. After
+          the attack/defense rolls it returns to standard turn order.
           <img src="../assets/combat2.jpg" alt="gangsters" />
         </p>
 
-        <h2>Enemy Template:</h2>
+        <h2>Enemy Stat Template:</h2>
 
         <div class="card card2">
           <div class="box2">
@@ -243,42 +264,121 @@
           </div>
         </div>
 
-        <h3>Gameplay and Points:</h3>
+        <div class="btn-holder">
+          <a href="#top"
+            ><button id="topBtn" class="btn">Back to Top</button></a
+          >
+        </div>
+
+        <h3 id="gameplay">
+          Gameplay <br />
+          Skills, Actions, and Points:
+        </h3>
 
         <p class="card column">
           <img src="../assets/barmen.jpg" alt="placeholder" />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          neque delectus omnis enim, quibusdam quo soluta eligendi, magni
-          reiciendis corrupti quisquam mollitia deserunt dolorum facilis iure
-          asperiores? Suscipit, nemo laborum!
+          Gameplay is simple. After the Character Creation the Story Teller sets
+          the scene. Each player then reacts to the scene. You've already seen
+          how combat works, but what about non-combat actions?
+
+          <br />
+          <br />
+
+          The player can react to the scene in a variety of ways. For instance
+          let's say they are in smokey Jazz Hall searching for Gangster. The
+          Gangster runs. They can:
+          <br />
+          <br />
+          -Command him to stop
+          <br />
+          -Persuade the Bouncer to help
+          <br />
+          -Give Chase
+
+          <br />
+          <br />
+
+          If they try to command him to stop they would roll a Intimidate Skill
+          Check and any Bonus' in Intimidation
+          <br />
+          <br />
+          If they try to persuade the Bouncer they would roll a Persuasion Skill
+          check and add any Bonus' in Persuasion.
+          <br />
+          <br />
+          If they give chase they would roll an Atheltics Skill check and add
+          any Bonus' in Athetlics.
+          <br />
+          <br />
+        </p>
+        <h2>Creative Actions</h2>
+        <p>
+          Creative actions can be handled in a variety of ways. Let's say the
+          player wants to shoot down a banner to trap the gangster instead of
+          the other examples given.
+
+          <br />
+          <br />
+
+          Instead of rolling a complex series of rolls for example:
+          <br />
+
+          -Attack Roll for Shot
+          <br />
+          -Spot Check for Banner
+          <br />
+          -Perception Check for Gangster and so on
+
+          <br />
+          <br />
+
+          You could simplifiy it by having the player roll a Percent Roll.
+          <br />
+          The difficulty value will be determined by Story Teller on a 1-100
+          scale.
+          <br />
+          1-10 Being very easy and 100 being nearly impossible.
+
+          <br />
+          <br />
+          So if you decide it's fairly difficult and assign a value of 75. Then
+          player would roll their Percent Dice (2D10 or 1D100) and any of their
+          Luck Points they wish to Apply.
+
+          <br />
+          <br />
+          If they succeed the banner falls and the gangster is trapped.
+
+          <br />
+          <br />
+          If they fail the banner doesn't fall and the gangster gets away.
+          <br />
+          <br />
+          It can be as simple as that!
+        </p>
+        <h2>Skills</h2>
+        <p>
+          Skills Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          facere impedit enim, modi neque inventore facilis consequatur,
+          reprehenderit ad dolor nobis quis fuga quisquam quo. Deleniti vel vero
+          alias unde.
         </p>
 
-        <h3>The Penrose Division:</h3>
+        <div class="btn-holder">
+          <a href="#top"
+            ><button id="topBtn" class="btn">Back to Top</button></a
+          >
+        </div>
 
-        <p class="card column">
-          The Bureau boys with their fancy new Penrose Division weren't playing
-          by the Queensbury rules. These spooks, with their flashy triangular
-          badges and nervous habits – muttering to their badges like cornered
-          rats – were always a step behind me, and somehowe a step ahead. They
-          lurked in the shadows like phantoms, their presence a cold wind
-          chilling the back of your neck right when you thought you were hot on
-          the trail.They sure as hell weren't sharing their secrets, and judging
-          by the shifty way they operated, those secrets were darker than a
-          moonless night in an alley. One thing for sure you better do your best
-          to stay out of their crosshairs, or might be taking a long walk off a
-          short pier. But then again, maybe a player could use them to their
-          advantage. After all, the enemy of my enemy is my friend, right?
-
-          <img src="../assets/agents2.jpg" alt="placeholder" />
-        </p>
-
-        <h3>
+        <h3 id="neoncity">
           Neon City and<br />
           The World of Gumshoe:
         </h3>
 
+        <h2>The Neon City Police:</h2>
+
         <p class="card column">
-          <img src="../assets/lawman.png" alt="placeholder" />
+          <img src="../assets/lawman.png" alt="police officer" />
 
           Entering the Neon City Police Station was like stepping into a film
           noir come to life. It was a place where hope flickered like a dying
@@ -334,24 +434,63 @@
           </div>
         </div>
 
+        <h2>The Penrose Division:</h2>
+
         <p class="card column">
+          The Bureau boys with their fancy new Penrose Division weren't playing
+          by the Queensbury rules. These spooks, with their flashy triangular
+          badges and nervous habits – muttering to their badges like cornered
+          rats – were always a step behind me, and somehowe a step ahead. They
+          lurked in the shadows like phantoms, their presence a cold wind
+          chilling the back of your neck right when you thought you were hot on
+          the trail.They sure as hell weren't sharing their secrets, and judging
+          by the shifty way they operated, those secrets were darker than a
+          moonless night in an alley. One thing for sure you better do your best
+          to stay out of their crosshairs, or might be taking a long walk off a
+          short pier. But then again, maybe a player could use them to their
+          advantage. After all, the enemy of my enemy is my friend, right?
+
+          <img src="../assets/agents2.jpg" alt="penrose agents" />
+        </p>
+
+        <p class="card column">
+          <img src="../assets/mystery.jpg" alt="alien in detective clothes" />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, libero
           eum? Ipsam recusandae quia quibusdam optio sunt soluta reiciendis vel
           praesentium? Est aperiam nobis ad soluta voluptatem? Labore, ratione
           molestias!
-
-          <img src="../assets/mystery.jpg" alt="placeholder" />
         </p>
-        <h3>Downloads</h3>
-        <p class="card4">
-          <span class="col">
-            <img class="avatar3" src="../assets/gear.png" alt="1930s gear" />
 
-            <a href="#">✓ Character Sheet</a>
-            <a href="#">✓ Rulebook</a>
-            <a href="#">✓ Starter Adventure</a>
-          </span>
-        </p>
+        <div class="btn-holder">
+          <a href="#top"
+            ><button id="topBtn" class="btn">Back to Top</button></a
+          >
+        </div>
+
+        <h3 id="downloads">Downloads</h3>
+
+        <div class="twin">
+          <p class="card4">
+            <span class="col">
+              <img class="avatar3" src="../assets/gear.png" alt="1930s gear" />
+
+              <a href="#">✓ Character Sheet</a>
+              <a href="#">✓ Rulebook</a>
+              <a href="#">✓ Starter Adventure</a>
+            </span>
+          </p>
+
+          <div class="card5">
+            Welcome to a hidden alleyway chock full of essential gear. Here
+            you'll find character sheets, crisp and clean, ready to be filled
+            with the grit and grime of your player's persona. The Rulebook with
+            core rules and game mechanics. And a Starter Adventure to get you
+            and your crew started on your first case. <br /><br />
+            So, don't be a flatfoot, partner. Gear up, fuel the narrative
+            firepower, and get ready to dive back into adventure and the neon
+            abyss.
+          </div>
+        </div>
 
         <h3>
           Starter Adventure <br />

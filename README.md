@@ -129,15 +129,15 @@ Will be adding more than just the starter adventure during future development.
 
   > The Amazon humidity hung heavy in Rio, a suffocating cloak over the vibrant chaos. Christ the Redeemer, its skeletal form reaching towards the hazy sky, offered no solace. Here, in 1936 Rio, the samba pulsed with a darker rhythm. I, a weary gumshoe used to the grit of New York City, had arrived for some sun-drenched R&R. But past sins are like stray bullets, they have a way of finding you, even in paradise. A face from a forgotten case materialized across the casino floor – Frankie "The Fox" Moretti, a hood I put away back in '32. He shouldn't be here, breathing, radiating barely contained rage. Looks like my Rio vacation just took a sharp turn into a labyrinth of showgirls with deadly secrets, a murder threatening to ignite a war, and Frankie "The Fox" Moretti thirsting for revenge as cold as a Rio night. This dame in distress wouldn't be wearing a swimsuit, but a shroud.
 
-- Gumshoe Russian Nights
+- Gumshoe Moscow Mayday
 
   ![Screenshot](./assets/readme/russiannights-sepia.jpg)
 
-  > Moscow, a frozen tomb bathed in perpetual twilight. Not exactly your typical tourist trap. You, a gumshoe with a nose for trouble and a taste for cheap vodka, were partnered with Nika Arovka, a Soviet ambassador with a smile too sharp and eyes like glacial ice. Whispers of strange men in uniforms and ancient alien devices with world-ending power sent you both hurtling through this frozen hell. Tracked once again by the Mysterious Penrose Division: you, a down-on-your-luck detective, and a femme fatale with buried secrets, were all that stood between oblivion and a world cracked open like a rotten egg.
+  > Moscow, a frozen tomb bathed in perpetual twilight. Not a great place for your plane to go down. Surviving the crash was the easy part, the saga ahead, well you might no be as lucky. You, a gumshoe with a nose for trouble and a taste for cheap vodka, were partnered with Nika Arovka, a Soviet ambassador with a smile too sharp and eyes like glacial ice. Whispers of strange men in uniforms and ancient alien devices with world-ending power sent you both hurtling through this frozen hell. A down-on-your-luck detective, and a femme fatale with buried secrets, were all that stood between oblivion and a world cracked open like a rotten egg.
 
 - Gumshoe Agents of the Multiverse
 
-  ![Screenshot](./assets/readme/multiverse.jpg)
+  ![Screenshot](./assets/readme/multiverse-sepia.jpg)
 
   > The last case went sideways faster than a greased getaway car. Now, you find yourself yanked from the familiar grime and grit and deposited in... well, who even knows? The Penrose Division, that's what they call themselves. Seems this rabbit hole runs deeper than a bootleg speakeasy. Multiverse travel, alternate realities, alien threats, the whole kit and kaboodle. All under the steely gaze of your new boss, April Sunday. A dame with a name that wouldn't be out of place in a bygone era, stuck in a world that makes yesterday's case look like a walk in the park. One thing's for sure, shamus: the gloves are off. Crack the case with the help of your new partner Nika Arovak, stop whatever's bleeding through the seams of reality, and maybe, just maybe, impress Ms. Sunday enough to learn the mystery that started this whole adventure!
 
@@ -186,10 +186,12 @@ A form where users can make posts about the game and interact with stories, idea
 I generated the artwork and the music track from:
 [AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
 
-It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results!
+_except_ for the Character Art in the Story Teller Page where I switched it up and used:
+[OpenArt](https://openart.ai/)
 
-FootPrints and Penrose Triangle from:
-[pngTree](https://pngtree.com/)
+It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia, tone each image, but totally worth it!_
+
+Gumshoe Neon City and other Logos and smaller PNGs are designed by me with assets from [pngTree](https://pngtree.com/)
 
 Intro screen re-mixed on: [Spline](https://spline.design/)
 

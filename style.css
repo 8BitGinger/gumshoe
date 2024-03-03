@@ -35,7 +35,8 @@ main {
 }
 
 .card,
-.card3 {
+.card3,
+.card4 {
   width: 80%;
   margin: 15px auto;
   font-size: 25px;
@@ -53,6 +54,10 @@ main {
 
 .card3 {
   max-width: 70%;
+}
+
+.card4 {
+  max-width: fit-content;
 }
 
 .card2 {
@@ -116,7 +121,6 @@ body {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   font: bold;
-  width: 100%;
   margin: auto;
   padding: 20px;
   margin-top: 20px;
@@ -124,6 +128,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .page-top {
@@ -153,6 +158,7 @@ body {
 
 .clue li {
   font-size: 50px;
+  color: white;
 }
 
 .container h3 {
@@ -288,7 +294,6 @@ body {
 }
 
 .footer {
-  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -328,6 +333,8 @@ body {
   background-color: rgba(0, 0, 0, 0.739);
   height: 100%;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .instructions a:hover {
@@ -381,7 +388,7 @@ body {
 }
 
 .highlight {
-  color: maroon;
+  color: rgb(206, 58, 58);
 }
 
 .big {
@@ -708,6 +715,39 @@ select {
   max-width: 40%;
 }
 
+.left,
+.middle,
+.right {
+  width: 25%;
+  border: 1px solid white;
+  background-image: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(234, 234, 200, 0.874)
+  );
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  height: fit-content;
+  min-height: 600px;
+  margin: 15px;
+}
+
+.left img,
+.right img,
+.middle img {
+  max-width: 80%;
+  margin: auto;
+}
+
+.left:hover,
+.middle:hover,
+.right:hover {
+  scale: 1.1;
+}
+
 .hide {
   display: none;
 }
@@ -763,6 +803,12 @@ select {
 
   .container p {
     width: 70vw;
+  }
+
+  .left,
+  .middle,
+  .right {
+    width: 75%;
   }
 
   .container-photo {

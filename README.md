@@ -186,7 +186,7 @@ A form where users can make posts about the game and interact with stories, idea
 I generated the artwork and the music track from:
 [AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
 
-_except_ for the Characters and Locations in the Story Teller Page where I switched it up and used:
+_except_ for the Characters and Buildings in the Story Teller Page where I switched it up and used:
 [OpenArt](https://openart.ai/)
 
 It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia, tone each image, but totally worth it!_

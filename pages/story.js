@@ -1,4 +1,5 @@
 const icon = document.getElementById('iconST');
+const ghost = document.getElementById('ghost');
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -10,4 +11,5 @@ window.addEventListener('scroll', () => {
 
 function spinIcon() {
   icon.style.transform = `rotate(${window.scrollY}deg)`;
+  ghost.style.transform = `rotate(${window.scrollY}deg)`;
 }

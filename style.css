@@ -695,6 +695,10 @@ select {
   max-width: 100%;
 }
 
+.dice img:hover {
+  scale: 1.1;
+}
+
 .row2 {
   display: flex;
   flex-direction: row;

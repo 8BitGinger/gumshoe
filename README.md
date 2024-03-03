@@ -45,11 +45,15 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 #### Player Page
 
+![screenshot](./assets/readme/character-build.png)
+
 ![screenshot](./assets/readme/gumshoe-classes-rm.png)
 
 #### Story Teller Page
 
-![screenshot](./assets/readme/gumshoe-main-rm.png)
+![screenshot](./assets/readme/storyteller-clues.png)
+
+![screenshot](./assets/readme/enemy-template.png)
 
 </details>
 

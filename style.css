@@ -237,7 +237,7 @@ body {
   background-size: cover;
   padding: 10px;
   margin: auto;
-
+  animation: shake 6s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
   align-items: center;
 }
 
@@ -268,7 +268,7 @@ body {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 50vw;
-  margin: 15px auto;
+  margin: 20px auto;
   padding: 6px;
 }
 

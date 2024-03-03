@@ -8,7 +8,7 @@ Rain slicked the chrome of my trench coat, the neon glow of Neon City bleeding i
 
 Neon City. A rocky hideaway where pleasure and peril intertwined like vipers in a heat haze. I wasn't built for sunshine and sand, my skills honed in the shadows of steel canyons. But a dame in distress? That's a case I couldn't walk away from.
 
-Dice would roll, fists might fly, and the secrets whispered by this city would unravel faster than a floozy's alibi. With spooks, shills, and dames with more secrets than a locked vault, I was about to dive down a rabbit hole deeper than a bootlegger's cellar. This wasn't just about a dame; it was about unraveling a conspiracy bigger than all of us. And in this neon-drenched jungle, the only way out was through.
+Dice would roll, fists might fly, and the secrets whispered by this city would unravel faster than a floozy's alibi. With spooks, shills, and dames with more secrets than a locked vault, I was about to dive down a rabbit hole deeper than a bootlegger's cellar. This wasn't just about a dame; it was about unraveling a conspiracy bigger than all of us. And in this neon-drenched concrete jungle, the only way out was through.
 
 ---
 
@@ -186,12 +186,12 @@ A form where users can make posts about the game and interact with stories, idea
 I generated the artwork and the music track from:
 [AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
 
-_except_ for the Character Art in the Story Teller Page where I switched it up and used:
+_except_ for the Neon City Police Characters in the Story Teller Page where I switched it up and used:
 [OpenArt](https://openart.ai/)
 
 It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia, tone each image, but totally worth it!_
 
-Gumshoe Neon City and other Logos and smaller PNGs are designed by me with assets from [pngTree](https://pngtree.com/)
+Gumshoe Neon City logs and matching Page Logos were designed by me with assets from [pngTree](https://pngtree.com/)
 
 Intro screen re-mixed on: [Spline](https://spline.design/)
 

@@ -11,5 +11,5 @@ window.addEventListener('scroll', () => {
 
 function spinIcon() {
   icon.style.transform = `rotate(${window.scrollY}deg)`;
-  ghost.style.transform = `rotate(${window.scrollY}deg)`;
+  // ghost.style.transform = `rotate(${window.scrollY}deg)`;
 }

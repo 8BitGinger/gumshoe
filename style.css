@@ -825,6 +825,7 @@ select {
   margin-right: 10px;
   max-width: 400px;
   /* transform: translate(-50%, -50%); */
+  /* animation: spin 50s linear infinite; */
 }
 
 .left:hover,

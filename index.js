@@ -12,7 +12,7 @@ const mystery = document.getElementById('mystery');
 
 mystery.addEventListener('click', () => {
   const audio = sound;
-  audio.volume = 0.5;
+  audio.volume = 0.1;
   playAudio(audio);
 });
 

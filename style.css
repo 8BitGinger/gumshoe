@@ -147,19 +147,19 @@ body {
 }
 
 .clue {
-  max-width: 100vw;
+  width: 90%;
 }
 
 .clue ul {
   list-style-type: none;
   margin: 0;
-  padding: 20px;
 
   background-color: rgba(254, 254, 234, 0.917);
   border: 3px solid black;
 
   max-width: 80vw;
   margin: auto;
+
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   display: flex;
@@ -170,6 +170,7 @@ body {
 .clue li {
   font-size: 50px;
   color: white;
+  list-style-type: none;
 }
 
 .container h3 {
@@ -191,6 +192,7 @@ body {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 .nav-bar ul {
@@ -200,7 +202,7 @@ body {
 
 .nav-bar li {
   list-style-type: none;
-  margin: 0 10px;
+  margin: 0 5px;
   padding: 7px;
   border: 1px solid black;
   background-color: rgba(254, 254, 234, 0.917);
@@ -217,6 +219,7 @@ body {
 
 .nav-bar li:hover {
   scale: 1.1;
+  background-color: rgba(231, 231, 197, 0.917);
 }
 
 .btn-holder {
@@ -225,7 +228,7 @@ body {
   justify-content: center;
   width: 100px;
   height: 100px;
-  background-color: rgba(254, 254, 234, 0.917);
+  background-color: rgba(254, 254, 234, 0.896);
   border-radius: 50%;
   padding: 10px;
   margin: auto;
@@ -256,7 +259,7 @@ body {
 .container h2 {
   font-size: 25px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.874);
+  background-color: rgba(250, 250, 238, 0.874);
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 50vw;
@@ -808,6 +811,11 @@ select {
   scale: 1.1;
 }
 
+.footsteps {
+  max-width: 90%;
+  margin: auto;
+}
+
 .hide {
   display: none;
 }
@@ -902,6 +910,10 @@ select {
     justify-content: center;
   }
 
+  .nav-bar {
+    display: none;
+  }
+
   .dev-text img {
     max-width: 280px;
   }
@@ -987,6 +999,10 @@ select {
   .class {
     font-size: 15px;
     width: 80%;
+  }
+
+  .clue p {
+    max-width: 200px;
   }
 
   .headline-container img {

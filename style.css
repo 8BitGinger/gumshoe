@@ -828,6 +828,12 @@ select {
   /* animation: spin 50s linear infinite; */
 }
 
+.skill {
+  max-width: 40%;
+
+  margin: auto;
+}
+
 .left:hover,
 .middle:hover,
 .right:hover {
@@ -921,6 +927,10 @@ select {
 
   .card {
     width: 70%;
+  }
+
+  .skill {
+    display: none;
   }
 
   .row2 {

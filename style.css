@@ -12,6 +12,10 @@ root {
   margin: 0;
 }
 
+.header a:hover {
+  cursor: crosshair;
+}
+
 break {
   width: 100%;
 }
@@ -469,6 +473,7 @@ body {
 }
 
 .class:hover {
+  transition: ease-in-out 0.5s;
   scale: 1.1;
   border: 2px solid rgb(67, 49, 16);
 }
@@ -804,6 +809,7 @@ select {
 
 .dice img:hover {
   scale: 1.2;
+  transition: ease-in-out 0.5s;
 }
 
 .row2 {

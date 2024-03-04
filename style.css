@@ -254,8 +254,12 @@ body {
   border: 1px dotted rgb(70, 70, 70);
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  max-width: 80%;
+
   color: rgb(45, 45, 45);
+}
+
+.traits2 {
+  font-size: 25px;
 }
 
 .container-photo2 h4 {
@@ -383,8 +387,9 @@ body {
   justify-content: center;
   text-align: center;
   height: fit-content;
-  padding: 0;
+  bottom: 0;
   margin: 0;
+  margin-bottom: -20px;
   border-top: 3px solid black;
   flex-direction: column;
   background-color: black;
@@ -830,10 +835,15 @@ select {
   margin: 15px;
 }
 
+.skew {
+  transform: rotate(-15deg);
+}
+
 .left img,
 .right img,
 .middle img {
-  max-width: 80%;
+  max-width: 90%;
+
   margin: auto;
 }
 
@@ -960,6 +970,11 @@ select {
     justify-content: center;
   }
 
+  .dice {
+    margin: 0;
+    padding: 0;
+  }
+
   .nav-bar {
     display: none;
   }
@@ -998,6 +1013,10 @@ select {
     background-size: contain;
   }
 
+  .stripe li {
+    font-size: 20px;
+  }
+
   .btn-holder {
     display: flex;
     flex-direction: row;
@@ -1010,6 +1029,11 @@ select {
   .btn-holder img {
     width: 100%;
     height: 100%;
+  }
+
+  .box {
+    padding: 0px;
+    margin: auto;
   }
 
   .box2 {

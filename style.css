@@ -823,6 +823,21 @@ select {
   max-width: 40%;
 }
 
+.abs {
+  position: absolute;
+  left: 0;
+}
+
+.rel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rel img {
+  width: 100%;
+}
+
 .left,
 .middle,
 .right {
@@ -841,6 +856,38 @@ select {
   height: fit-content;
   min-height: 600px;
   margin: 15px;
+}
+
+.left2,
+.right2 {
+  max-width: 45%;
+  border: 1px solid white;
+  background-image: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(234, 234, 200, 0.874)
+  );
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  height: fit-content;
+  margin: 15px;
+}
+
+.left2 img {
+  max-width: 300px;
+  margin: auto;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 70%;
 }
 
 .skew {
@@ -869,6 +916,14 @@ select {
   max-width: 40%;
 
   margin: auto;
+}
+
+.rel img {
+  min-width: 380px;
+}
+
+.text {
+  margin-left: 15px;
 }
 
 .left:hover,
@@ -961,6 +1016,15 @@ select {
     max-width: 100vw;
   }
 
+  .abs {
+    top: 0;
+    width: 95%;
+  }
+
+  .rel img {
+    min-width: 250px;
+  }
+
   .ghost {
     height: 200px;
     width: 200px;
@@ -968,6 +1032,10 @@ select {
   }
 
   .card {
+    width: 70%;
+  }
+
+  .card4 {
     width: 70%;
   }
 
@@ -988,6 +1056,14 @@ select {
   .dice {
     margin: 0;
     padding: 0;
+  }
+
+  .left2 {
+    display: none;
+  }
+
+  .right2 {
+    max-width: 80%;
   }
 
   .nav-bar {
@@ -1080,6 +1156,11 @@ select {
     margin-left: -5px;
   }
 
+  .row3 {
+    flex-direction: column;
+    width: 100%;
+  }
+
   .classes {
     width: 100%;
     margin-left: -15px;
@@ -1088,6 +1169,10 @@ select {
   .class {
     font-size: 15px;
     width: 80%;
+  }
+
+  .class li {
+    font-size: 20px;
   }
 
   .clue p {

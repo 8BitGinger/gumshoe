@@ -962,7 +962,9 @@ select {
   }
 
   .ghost {
-    max-height: 400px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
   }
 
   .card {

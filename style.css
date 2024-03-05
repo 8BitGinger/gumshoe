@@ -140,14 +140,13 @@ body {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   font: bold;
-  margin: auto;
+
   padding: 20px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
 }
 
 .page-top {
@@ -252,12 +251,15 @@ body {
   margin: auto;
   margin: 10px;
   padding: 10px;
-  font-size: 18px;
   border: 1px dotted rgb(70, 70, 70);
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  background-color: rgba(148, 142, 118, 0.428);
+  color: rgb(83, 82, 82);
+}
 
-  color: rgb(45, 45, 45);
+.traits:hover {
+  color: black;
 }
 
 .traits2 {
@@ -475,6 +477,7 @@ body {
   transition: ease-in-out 0.5s;
   scale: 1.1;
   border: 2px solid rgb(67, 49, 16);
+  background-color: rgb(254, 254, 234);
 }
 
 .classes li {
@@ -666,7 +669,7 @@ select {
 .box2 {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: fit-content;
 
   margin: 10px;
   font-size: 20px;
@@ -682,9 +685,9 @@ select {
 
 .box2:hover {
   text-align: center;
-  scale: 2;
+  scale: 1.5;
   width: fit-content;
-  background-image: radial-gradient(rgb(181, 159, 124), rgba(0, 0, 0, 0.91));
+  background-image: radial-gradient(rgb(181, 159, 124), rgb(0, 0, 0));
 }
 
 .dev-text {
@@ -809,7 +812,6 @@ select {
 
 .dice img:hover {
   scale: 1.2;
-  transition: ease-in-out 0.5s;
 }
 
 .row2 {
@@ -956,6 +958,10 @@ select {
     display: flex;
     flex-direction: column;
     max-width: 100vw;
+  }
+
+  .ghost {
+    max-height: 400px;
   }
 
   .card {

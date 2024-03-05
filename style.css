@@ -845,6 +845,7 @@ select {
 
 .skew {
   transform: rotate(-15deg);
+  margin-bottom: 15px;
 }
 
 .left img,
@@ -930,7 +931,6 @@ select {
 
   .container h1 {
     font-size: 30px;
-    width: 80%;
   }
 
   .container p {

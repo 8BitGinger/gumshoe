@@ -1092,6 +1092,12 @@ select {
     width: 80vw;
   }
 
+  .gumshoe {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
   .column {
     flex-direction: column;
   }
@@ -1164,6 +1170,12 @@ select {
   .intro img {
     margin-left: 0;
   }
+
+  .gumshoe img {
+    max-width: 80%;
+    margin-left: 40px;
+  }
+
   .big {
     font-size: 55px;
     text-align: center;

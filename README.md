@@ -83,7 +83,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 <summary> Players </summary>
 <br>
 
-Player Info Here
+[Player Info](https://8bitginger.github.io/gumshoe/pages/players.html)
 
 </details>
 
@@ -91,15 +91,7 @@ Player Info Here
 <summary>Story Tellers</summary>
 <br>
 
-Story Teller Info Here
-
-</details>
-
-<details closed>
-<summary>Rules</summary>
-<br>
-
-Rules Info Here
+[Story Teller Info](https://8bitginger.github.io/gumshoe/pages/storyteller.html)
 
 </details>
 

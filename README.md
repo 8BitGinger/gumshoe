@@ -1,3 +1,5 @@
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 # Gumshoe Neon City
 
 [![screenshot](./assets/readme/gumshoe-start-rm.png)](#description)
@@ -18,6 +20,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 1. [Links](#links)
 1. [Gameplay](#gameplay)
 1. [Roadmap](#roadmap)
+1. [License](#license)
 1. [Credits](#credits)
 1. [Contact](#contact)
 
@@ -166,6 +169,14 @@ Would like to build a random generator where Story Tellers can come and generate
 #### _Player Forum_
 
 A form where users can make posts about the game and interact with stories, ideas, concepts, or theories about the games future Adventures
+
+---
+
+<div id="license"></div>
+
+## License
+
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
 

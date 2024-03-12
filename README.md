@@ -83,7 +83,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 <summary> Players </summary>
 <br>
 
-Player Info Here
+[Player Info](https://8bitginger.github.io/gumshoe/pages/players.html)
 
 </details>
 
@@ -91,15 +91,7 @@ Player Info Here
 <summary>Story Tellers</summary>
 <br>
 
-Story Teller Info Here
-
-</details>
-
-<details closed>
-<summary>Rules</summary>
-<br>
-
-Rules Info Here
+[Story Teller Info](https://8bitginger.github.io/gumshoe/pages/storyteller.html)
 
 </details>
 
@@ -189,9 +181,9 @@ I generated the artwork and the music track from:
 _except_ for the Characters and Buildings in the Story Teller Page where I switched it up and used:
 [OpenArt](https://openart.ai/)
 
-It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia, tone each image, but totally worth it!_
+It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia-tone each image, but totally worth it!_
 
-Gumshoe Neon City logs and matching Page Logos were designed by me with assets from [pngTree](https://pngtree.com/)
+Gumshoe Neon City logos and matching Page Logos were designed by me with assets from [pngTree](https://pngtree.com/)
 
 Intro screen re-mixed on: [Spline](https://spline.design/)
 
@@ -206,3 +198,13 @@ Intro screen re-mixed on: [Spline](https://spline.design/)
 #### GitHub:
 
 [8BitGinger](https://github.com/8BitGinger)
+
+---
+
+<div align="center">
+
+#### Enhanced with:
+
+![ai-logo](./assets/readme/ai-readme.png)
+
+</div>

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Ojuju:wght@200..800&family=Rock+Salt&family=Abril+Fatface&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../style.css" />
@@ -21,10 +21,11 @@
             id="icon1"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="Penrose Triangle"
           />Player Page
         </h1>
 
-        <p class="column avatar">
+        <article class="column avatar">
           <img
             class="avatar5"
             src="../assets/partners.jpg"
@@ -38,9 +39,9 @@
           world and other characters. The character will have a name, a
           backstory, and a class that provides a set of skills and items that
           will help them solve the case.
-        </p>
+        </article>
 
-        <p class="column avatar">
+        <article class="column avatar">
           The backstory will help the player understand the character's
           motivations and goals. It will also help the player understand the
           character's place in the world, and how they fit into the story of the
@@ -51,7 +52,7 @@
             src="../assets/backstory.jpg"
             alt="man standing with fedora"
           />
-        </p>
+        </article>
       </section>
       <h3>Base Classes</h3>
       <ul class="classes">
@@ -397,7 +398,9 @@
         </div>
       </section>
 
-      <!-- <section class="container">
+
+
+      <section class="container">
         <h1>
           <img
             id="icon2"
@@ -414,6 +417,9 @@
               alt="city sign"
             />
           </div>
+          </form>
+
+          <!-- 
           <label for="name">Character Name:</label>
           <input type="text" id="name" name="name" required />
           <br />
@@ -528,21 +534,24 @@
 
       <h3 id="downloads">Downloads</h3>
 
-      <div class="twin">
+      <section class="col3">
         <div class="card5 skew">
-          <span class="col">
-            <img class="avatar3" src="../assets/gear.png" alt="1930s gear" />
+          <span class="intro overlay2">
+            Gumshoe
+            <a href="../assets/docs/NeonCity-CharSheet.pdf" download
+              ><img class="avatar3" src="../assets/gear.png" alt="1930s gear"
+            /></a>
 
             <a href="../assets/docs/NeonCity-CharSheet.pdf" download
               >✓ Character Sheet</a
             >
           </span>
         </div>
-      </div>
+      </section>
 
       <a href="./app.html" class="btn column home">Back Home </a>
 
-      <script src="./player.js"></script>
+      <script src="./js/player.js"></script>
     </main>
   </body>
 </html>

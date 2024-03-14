@@ -1,4 +1,4 @@
-root {
+* {
   box-sizing: border-box;
 }
 
@@ -11,6 +11,10 @@ root {
   margin: 0;
 }
 
+.backer-overlay {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
 .header a:hover {
   cursor: crosshair;
 }
@@ -18,6 +22,11 @@ root {
 main {
   padding-bottom: 25px;
   margin: 0;
+}
+
+article img {
+  max-width: 50%;
+  margin: auto;
 }
 
 .btn {
@@ -74,6 +83,7 @@ main {
   justify-content: center;
   align-items: center;
   align-content: center;
+  flex-direction: column;
 }
 
 .card2 {
@@ -147,6 +157,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .page-top {
@@ -154,7 +165,7 @@ body {
 }
 
 .clue {
-  width: 90%;
+  width: 100%;
 }
 
 .clue ul {
@@ -199,6 +210,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 3;
+  padding: 0;
 }
 
 .nav-bar ul {
@@ -238,8 +250,12 @@ body {
   background-size: cover;
   padding: 10px;
   margin: auto;
-  animation: shake 6s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
   align-items: center;
+}
+
+.btn-holder:hover {
+  animation: shake 4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+  transform: translate3d(0, 0, 0);
 }
 
 .traits {
@@ -296,7 +312,7 @@ body {
   padding: 6px;
 }
 
-.container p {
+.container article {
   text-indent: 18px;
   width: 80%;
   margin: 15px auto;
@@ -313,6 +329,12 @@ body {
   border: 3px solid black;
 }
 
+.row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .container a {
   color: rgb(248, 12, 12);
   font-style: italic;
@@ -323,7 +345,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.685);
 }
 
 .intro img {
@@ -337,7 +358,7 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 100vw;
-  margin: 0px;
+  margin: 50px 0px;
   border: 3px solid black;
 }
 
@@ -406,7 +427,7 @@ body {
   font-size: 50px;
   cursor: pointer;
   margin-bottom: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .column {
@@ -431,6 +452,14 @@ body {
   padding: 0;
 }
 
+.overlay2 {
+  background-color: rgba(0, 0, 0, 0.739);
+  height: fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 5px;
+}
+
 .instructions a:hover {
   color: white;
 }
@@ -441,6 +470,7 @@ body {
   font-style: italic;
   border-bottom: 1px solid rgb(114, 114, 73);
   border-top: 1px solid rgb(114, 114, 73);
+  font-family: 'newsreader', serif;
 }
 
 .classes {
@@ -668,7 +698,7 @@ select {
 .box2 {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: 45%;
 
   margin: 10px;
   font-size: 20px;
@@ -698,17 +728,37 @@ select {
   align-items: center;
   color: white;
   font-size: 20px;
+  border-radius: 12px;
 }
 
 .dev-text img {
-  width: 475px;
-  max-height: 475px;
+  width: 50%;
+}
+
+.gumshoe {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-self: center;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  top: 0;
+}
+
+.dev-text p {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 5px;
+  color: white;
 }
 
 .subtitle2 {
   background-image: linear-gradient(rgb(67, 54, 15), rgb(118, 117, 117));
   color: white;
-  padding: 5px;
+  padding: 2px;
 }
 
 .box input {
@@ -740,10 +790,6 @@ select {
   align-self: center;
 }
 
-.headline {
-  max-width: 70%;
-}
-
 .sub-title {
   background-color: rgba(0, 0, 0, 0.653);
   color: white;
@@ -768,6 +814,10 @@ select {
   background-image: url(./assets/newspaper.jpg);
 }
 
+.italic {
+  font-style: italic;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -779,12 +829,37 @@ select {
   margin-top: 25px;
 }
 
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.welcome h4 {
+  font-size: 30px;
+}
+
 .col a {
   margin: auto;
   color: rgb(227, 218, 184);
   font-size: 25px;
   font-weight: bold;
   width: fit-content;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.col2 img {
+  margin: 0;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 .col a:hover {
@@ -810,7 +885,7 @@ select {
 }
 
 .dice img:hover {
-  scale: 1.2;
+  scale: 1.3;
 }
 
 .row2 {
@@ -837,6 +912,10 @@ select {
   width: 100%;
 }
 
+.starter {
+  padding: 45px !important;
+}
+
 .left,
 .middle,
 .right {
@@ -857,7 +936,6 @@ select {
   margin: 15px;
 }
 
-.left2,
 .right2 {
   max-width: 45%;
   border: 1px solid white;
@@ -875,9 +953,17 @@ select {
   margin: 15px;
 }
 
-.left2 img {
-  max-width: 300px;
+.left2 {
   margin: auto;
+  animation: skew 10s linear infinite;
+  width: 45%;
+  height: 330px;
+  background-image: url(./assets/d20.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: animation 0.5s ease-in-out;
+  overflow: auto;
 }
 
 .row3 {
@@ -917,8 +1003,13 @@ select {
   margin: auto;
 }
 
+.skill img {
+  animation: skew 20s infinite;
+  width: 100%;
+}
+
 .rel img {
-  min-width: 380px;
+  min-width: 340px;
 }
 
 .text {
@@ -940,8 +1031,32 @@ select {
   display: none;
 }
 
+.overlay2 a,
+.overlay2 {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px 15px;
+}
+
+.overlay2 a:hover {
+  scale: 1.1;
+}
+
 .spin {
-  animation: spin 50s linear infinite;
+  animation: spin 5s linear infinite;
+}
+
+.shake {
+  animation: shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+  margin: 0 20px;
+}
+
+.diced {
+  position: absolute;
+  width: 250px;
+  animation: skew-reverse 10s linear infinite;
 }
 
 @keyframes spin {
@@ -950,6 +1065,52 @@ select {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: rotate(0deg);
+    margin-right: 0px;
+  }
+  25% {
+    transform: rotate(45deg);
+    margin-right: 10px;
+  }
+  50% {
+    transform: rotate(90deg);
+    margin-right: 0px;
+  }
+  75% {
+    rotate: (45deg);
+    margin-right: -10px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    margin-right: -0px;
+  }
+}
+
+@keyframes skew-reverse {
+  100% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-45deg);
+    margin-left: 5px;
+  }
+  50% {
+    transform: rotate(-90deg);
+    margin-left: 15px;
+  }
+  25% {
+    rotate: (-45deg);
+    margin-right: 5px;
+  }
+
+  0% {
+    transform: rotate(0deg);
   }
 }
 
@@ -1021,20 +1182,18 @@ select {
   }
 
   .rel img {
-    min-width: 250px;
-  }
-
-  .ghost {
-    height: 200px;
-    width: 200px;
-    margin: auto;
+    min-width: 200px;
   }
 
   .card {
-    width: 70%;
+    width: 80%;
   }
 
   .card4 {
+    width: 80%;
+  }
+
+  .card5 {
     width: 70%;
   }
 
@@ -1047,7 +1206,7 @@ select {
   }
 
   .dev-text {
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
     justify-content: center;
   }
@@ -1071,6 +1230,7 @@ select {
 
   .dev-text img {
     max-width: 280px;
+    margin: auto;
   }
 
   .intro img {
@@ -1105,6 +1265,9 @@ select {
 
   .stripe li {
     font-size: 20px;
+    list-style: none;
+    margin-left: -20px;
+    width: 100%;
   }
 
   .btn-holder {
@@ -1162,16 +1325,18 @@ select {
 
   .classes {
     width: 100%;
-    margin-left: -15px;
+    margin: auto;
+    padding: 0;
   }
 
   .class {
     font-size: 15px;
     width: 80%;
+    margin: 10px auto;
   }
 
   .class li {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .clue p {
@@ -1193,27 +1358,40 @@ select {
     max-width: 100%;
   }
 
+  .clue {
+    margin: auto;
+    padding: 0;
+  }
+
+  .clue ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   .clue li {
     font-size: 35px;
+    padding: 0px 20px;
   }
 
   .form {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     font-size: 25px;
-    width: 80%;
+    width: 90%;
+
+    padding: 10px;
+    margin: auto;
   }
 
   .mute {
     font-size: 40px;
-    background-color: rgb(254, 254, 250);
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.806);
-    z-index: 2;
-    left: 0;
-    width: fit-content;
+
     margin-left: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+  }
+
+  .mute img {
+    width: 55px;
   }
 
   .instructions {
@@ -1223,23 +1401,39 @@ select {
     min-width: 80%;
   }
 
+  .dev-text {
+    margin-bottom: 20px;
+  }
+
   .develop h3 {
     font-size: 20px;
     -webkit-text-stroke: 0px;
-  }
-
-  .form {
-    font-size: 20px;
-    padding: 10px;
-    margin: auto;
   }
 
   .twin {
     flex-direction: column;
   }
 
+  .row2 img {
+    width: 100%;
+  }
+
   .round img {
     width: 250px;
     height: 250px;
+  }
+
+  .row4 {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gumshoe {
+    margin: auto;
+    text-align: center;
+    justify-self: center;
+    min-width: 350px;
   }
 }

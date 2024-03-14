@@ -30,8 +30,6 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Screenshots
 
-![logo](./assets/readme/neoncity-sepia.jpg)
-
 ![screenshot](./assets/readme/gumshoe-main-rm.png)
 
 ![screenshot](./assets/readme/GIFMaker_me.gif)
@@ -70,12 +68,6 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 [Repo](https://github.com/8BitGinger/gumshoe)
 
-#### Downloads
-
-[Character Sheet]()
-
-[Starter Adventure]()
-
 ---
 
 <div id="gameplay"></div>
@@ -111,6 +103,12 @@ Will be adding more than just the starter adventure during future development.
 <details closed>
 <summary>Future Adventures:</summary>
 <br>
+
+-Gumshoe Neon City Chapters 2 and 3
+
+![logo](./assets/readme/neoncity-sepia.jpg)
+
+> Find out the fate of You and your unlikely group of allies on the mean streets of Neon City!
 
 - Gumshoe Hollywoodland
 
@@ -214,8 +212,6 @@ Intro screen re-mixed on: [Spline](https://spline.design/)
 
 <div align="center">
 
-#### Enhanced with:
-
-![ai-logo](./assets/readme/ai-readme.png)
+![logo](./assets/document-logo-sepia3.png)
 
 </div>

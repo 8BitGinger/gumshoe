@@ -15,12 +15,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Ojuju:wght@200..800&family=Rock+Salt&family=Abril+Fatface&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../style.css" />
   </head>
-  <body>
+  <body onload="playAudio()" class="backer-overlay">
+    <audio id="audio" loop="true">
+      <source src="../assets/background2.mp3" />
+    </audio>
     <!-- <nav class="nav">
       <ul class="nav-links">
         <li><a href="#players">Players</a></li>
@@ -31,22 +34,21 @@
     </nav> -->
     <main>
       <section id="intro" class="container intro">
-        <h1>
-          <span class="big gumshoe">Gumshoe</span>
-          <span class="script">Neon City </span><br /><span class="date"
-            >☆☆☆ June 6, 1936 ☆☆☆</span
-          >
-        </h1>
-        <div class="container headline-container">
-          <p class="column">
-            <img
-              src="../assets/neon-sign.jpg"
-              class="city"
-              alt="car in busy city"
-            />
+        <h1 class="starter">
+          <img
+            class="gumshoe"
+            src="../assets/document-logo-sepia2.png"
+            alt="logo"
+          />
+          <br /><br /><br />
+          <span>Neon City </span>
 
-            <span class="headline"
-              >" This dame, Neon City, she shines brighter than a dozen
+          <span class="date">☆☆☆ June 6, 1936 ☆☆☆</span>
+        </h1>
+        <section class="container headline-container">
+          <article class="col2">
+            <p class="headline">
+              " This dame, Neon City, she shines brighter than a dozen
               interrogation lamps, but beneath that glitz and glamour, there's a
               darkness thicker than a week-old cigar. <br /><br />
               Yeah, the night sky's a canvas for a million neon signs, and the
@@ -67,22 +69,25 @@
               Neon City's underbelly, it ain't just about this town, see? It's a
               reflection of somethin' deeper, somethin' that lurks in all of us,
               waiting for the right moment to slither out."
-              <br /><br />
-              -Harvey Stietz LA Chronicle</span
-            >
-          </p>
-        </div>
+            </p>
+            <div class="row2 welcome">
+              <img src="../assets/reporter.png" alt="reporter" />
+              <h4 class="italic">-Harvey Stietz LA Chronicle</h4>
+            </div>
+          </article>
+        </section>
         <h1 class="column">
           <img
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />The Story
           <a href="#intro"
             ><button id="topBtn" class="btn">Back to Top</button></a
           >
         </h1>
-        <p class="column">
+        <article class="column">
           <img src="../assets/postcard-main.jpg" alt="postcard" />
           Rain hammered the grimy windowpane, blurring the neon symphony outside
           into a watercolor of sin. The dame in the red dress had been gone for
@@ -91,8 +96,8 @@
           familiar scrawl whispering promises from a city that shimmered with
           both chrome and sleaze - Neon City, a city of glitz and vice carved
           from the rocky coast. A city that had swallowed men whole.
-        </p>
-        <p class="column">
+        </article>
+        <article class="column">
           But whispers tell of her murder – a death she seem to have cheated
           once before, somehow, but couldn't again. Now, amidst the crooked cops
           and ruthless gangsters of this 1930s underworld, you arrive to find
@@ -102,8 +107,8 @@
           of your search for the truth about who killed your lover and the
           identity of the mysterious agents following you.
           <img src="../assets/frank.jpg" alt="neon city scene" />
-        </p>
-        <p class="column">
+        </article>
+        <article class="column">
           <img src="../assets/neoncity2.jpg" alt="neon city scene" />
           But even the city's dazzling lights can't mask the dark secrets it
           holds. Your only hope seems to be Frank Hodgkins, a haggard and
@@ -111,34 +116,34 @@
           noble sense of morality. Though his cynicism runs deep, the glint of
           determination in his bloodshot eyes hints at a past that fuels his
           refusal to turn a blind eye to the city's corruption.
-        </p>
+        </article>
 
-        <p class="column">
+        <article class="column">
           Another ally comes in the form of Ruby Dubois, a young, aspiring jazz
           singer with a voice as smooth as velvet and eyes that hold the wisdom
           of the streets. Her dreams of the spotlight intertwine with yours as
           she too longs to unravel the mysteries that threaten to consume Neon
           City. Her reasons may remain unclear, but her loyalty is unwavering.
           <img src="../assets/ruby.jpg" alt="neon city scene" />
-        </p>
+        </article>
 
-        <p class="column">
+        <article class="column">
           <img src="../assets/agents2.jpg" alt="neon city scene" />
           You will be purused by Agents of the Mysterious Penrose Division of
           the FBI. Their goals and interests unknown, they seem to be stalking
           your every move. They are a force to be reckoned with and will stop at
           nothing to keep you from uncovering the truth.
-        </p>
-        <p class="column">
+        </article>
+        <article class="column">
           Together, you'll navigate the neon-drenched labyrinth, armed with your
           wits, a flicker of impossible hope, and the unlikely alliance of a
           washed-up detective and a fiery songbird, all to unravel a conspiracy
           that twists the very fabric of reality.
           <img src="../assets/alien-invasion.jpg" alt="neon city scene" />
-        </p>
+        </article>
       </section>
 
-      <section id="intro" class="graphics">
+      <section class="graphics">
         <div class="container-photo">
           <img src="../assets/clues.jpg" alt="placeholder" />
           <h3>Search for Clues in Neon City</h3>
@@ -170,7 +175,7 @@
           ><br />
           for Character Sheet
         </h3>
-        <p class="column avatar">
+        <article class="column avatar">
           <img src="../assets/dame.jpg" alt="car driving in city" />
           Rain slicked the neon-drenched streets of Neon City, reflecting the
           city's seedy underbelly in a distorted kaleidoscope. In this concrete
@@ -183,8 +188,8 @@
           weaving a web of lies and secrets as thick as the fog rolling off the
           docks. The rest of you, hardened gumshoes with more scars than morals,
           step into the neon-lit shadows, chasing phantoms and buried truths.
-        </p>
-        <p class="column avatar">
+        </article>
+        <article class="column avatar">
           Every choice you make ripples through the story, twisting the
           narrative like a bullet ricocheting off a mirrored wall. Encounters
           with shifty molls and two-bit thugs test your mettle. Cryptic clues,
@@ -200,8 +205,8 @@
           the neon abyss. The clock's ticking, gumshoe. And in Neon City, time
           is measured in bullets.
           <img src="../assets/fedora.jpg" alt="car driving" />
-        </p>
-        <div class="row2">
+        </article>
+        <article class="row4">
           <p class="role">
             <span class="row big">⚜</span>
 
@@ -216,7 +221,7 @@
             <span class="list column">Standard RPG Dice</span>
             <span class="list column">Your Imagination!</span>
           </p>
-        </div>
+        </article>
       </section>
 
       <section class="container">
@@ -233,7 +238,7 @@
         <h3>
           Players <a id="playerLink" href="./players.html">Click here </a>
         </h3>
-        <p class="column avatar">
+        <article class="column avatar">
           <img src="../assets/players.jpg" alt="guy with gun" />
           Neon City ain't a place for the nameless, partner. Before you even set
           foot in this concrete jungle, you gotta craft your own legend. Name,
@@ -246,7 +251,7 @@
           <br /><br />
           So, craft your legend wisely, because in Neon City, your reputation
           can precede you.<br /><br />See more on the Players page!
-        </p>
+        </article>
       </section>
 
       <section class="container">
@@ -262,7 +267,7 @@
         </h1>
         <h3>StoryTellers <a href="./storyteller.html">Click Here</a></h3>
 
-        <p class="column avatar">
+        <article class="column avatar">
           <img
             src="../assets/storyteller.jpg"
             alt="sketch of noir man with hat"
@@ -277,7 +282,7 @@
           cracking with a yawn instead of a bang. Too cryptic, and they're left
           flailing in the dark, the frustration thicker than week-old cigar
           smoke.
-        </p>
+        </article>
       </section>
 
       <section class="container" id="downloads">
@@ -288,13 +293,12 @@
             src="../assets/penrosev1.png"
           />Downloads and Resources
         </h1>
-        <p class="column">
+        <article class="column">
           Got a new pair of gumshoes for your next Neon City adventure? <br />
           <br />Welcome to a hidden alleyway chock full of essential gear. Here
           you'll find character sheets, crisp and clean, ready to be filled with
-          the grit and grime of your player's persona. The Rulebook with core
-          rules and game mechanics. And a Starter Adventure to get you and your
-          crew started on your first case. <br /><br />
+          the grit and grime of your player's persona. And a Starter Adventure
+          to get you and your crew started on your first case. <br /><br />
           So, don't be a flatfoot, partner. Gear up, fuel the narrative
           firepower, and get ready to dive back into adventure and the neon
           abyss.
@@ -310,7 +314,7 @@
               >✓ Starter Adventure</a
             >
           </span>
-        </p>
+        </article>
       </section>
 
       <section class="container">
@@ -333,20 +337,23 @@
             >Click here
           </a>
         </h3>
-        <div class="column">
+        <section class="column">
           <div class="col dev-text">
             <div class="row2">
               <img src="../assets/dev-avatar.png" alt="developer avatar" />
 
-              <div class="col">
+              <p>
                 I'm <span class="subtitle2">Ryan Fann, the 8BitGinger,</span> a
                 full-stack developer with a passion for creating immersive,
-                interactive experiences. I specialize in web development,
-                game/graphic design, and digital storytelling. <br /><br />My
-                goal is to create engaging, user-friendly applications that
-                bring people together and spark their imagination.
-                <br /><br /><a href="mailto:ryan.fann@gmail.com">Let's chat!</a>
-              </div>
+                interactive experiences.<br /><br />
+                I specialize in web development, game/graphic design, and
+                digital storytelling. <br /><br />My goal is to create engaging,
+                user-friendly applications that bring people together and spark
+                their imagination. <br /><br /><a
+                  href="mailto:ryan.fann@gmail.com"
+                  >Let's chat!</a
+                >
+              </p>
             </div>
             <br />
             <div class="row subtitle2">
@@ -366,9 +373,11 @@
               ></a>
             </div>
           </div>
-        </div>
+        </section>
       </section>
-      <div class="mute" id="mute">🔇</div>
+      <div class="mute" id="mute">
+        <img src="../assets/mute-icon.png" alt="gramophone mute" />
+      </div>
       <!-- <audio id="audio" autoplay loop>
         <source src="../assets/background.mp3" type="audio/mpeg" /> -->
       <footer class="footer">

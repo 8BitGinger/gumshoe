@@ -15,14 +15,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Ojuju:wght@200..800&family=Rock+Salt&family=Abril+Fatface&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Ojuju:wght@200..800&family=Rock+Salt&family=Abril+Fatface&family=Macondo+Swash+Caps&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body onload="playAudio()" class="backer-overlay">
     <audio id="audio" loop="true">
-      <source src="../assets/background2.mp3" />
+      <source src="../assets/background2.mp3" alt="background music" />
     </audio>
     <!-- <nav class="nav">
       <ul class="nav-links">
@@ -47,6 +47,19 @@
         </h1>
         <section class="container headline-container">
           <article class="col2">
+            <div class="row-headline">
+              <div class="left-headline row">
+                <div class="cents">2</div>
+                <div class="cents-small">¢</div>
+              </div>
+              <div class="middle-headline"><p>The Mirror</p></div>
+              <div class="right-headline">
+                <p>FINAL</p>
+              </div>
+            </div>
+            <div class="headline-title">
+              <h5>EXTRA! EXTRA! READ ALL ABOUT IT</h5>
+            </div>
             <p class="headline">
               " This dame, Neon City, she shines brighter than a dozen
               interrogation lamps, but beneath that glitz and glamour, there's a
@@ -124,11 +137,11 @@
           of the streets. Her dreams of the spotlight intertwine with yours as
           she too longs to unravel the mysteries that threaten to consume Neon
           City. Her reasons may remain unclear, but her loyalty is unwavering.
-          <img src="../assets/ruby.jpg" alt="neon city scene" />
+          <img src="../assets/ruby.jpg" alt="Ruby Dubois" />
         </article>
 
         <article class="column">
-          <img src="../assets/agents2.jpg" alt="neon city scene" />
+          <img src="../assets/agents2.jpg" alt="penrose agents" />
           You will be purused by Agents of the Mysterious Penrose Division of
           the FBI. Their goals and interests unknown, they seem to be stalking
           your every move. They are a force to be reckoned with and will stop at
@@ -139,22 +152,25 @@
           wits, a flicker of impossible hope, and the unlikely alliance of a
           washed-up detective and a fiery songbird, all to unravel a conspiracy
           that twists the very fabric of reality.
-          <img src="../assets/alien-invasion.jpg" alt="neon city scene" />
+          <img
+            src="../assets/alien-invasion.jpg"
+            alt="skyline of alien invasion with man staring in distance"
+          />
         </article>
       </section>
 
       <section class="graphics">
         <div class="container-photo">
-          <img src="../assets/clues.jpg" alt="placeholder" />
+          <img src="../assets/clues.jpg" alt="clues" />
           <h3>Search for Clues in Neon City</h3>
         </div>
         <div class="container-photo">
-          <img src="../assets/gangsters.jpg" alt="placeholder" />
+          <img src="../assets/gangsters.jpg" alt="clues" />
           <h3>Dodge Gangters and Crooked Cops</h3>
         </div>
 
         <div class="container-photo">
-          <img src="../assets/mystery.jpg" alt="placeholder" />
+          <img src="../assets/mystery.jpg" alt="clues" />
           <h3>Solve a mystery that's out of this world!</h3>
         </div>
       </section>
@@ -165,6 +181,7 @@
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />How to Play
           <a href="#intro"
             ><button id="topBtn" class="btn">Back to Top</button></a
@@ -204,7 +221,7 @@
           So grab your fedora, slug down the rest of that whiskey, and step into
           the neon abyss. The clock's ticking, gumshoe. And in Neon City, time
           is measured in bullets.
-          <img src="../assets/fedora.jpg" alt="car driving" />
+          <img src="../assets/fedora.jpg" alt="man in fedora" />
         </article>
         <article class="row4">
           <p class="role">
@@ -230,6 +247,7 @@
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />Players
           <a href="#intro"
             ><button id="topBtn" class="btn">Back to Top</button></a
@@ -260,12 +278,19 @@
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />StoryTellers
           <a href="#intro"
             ><button id="topBtn" class="btn">Back to Top</button></a
           >
         </h1>
-        <h3>StoryTellers <a href="./storyteller.html">Click Here</a></h3>
+        <h3>
+          StoryTellers
+          <br />
+          <a href="./storyteller.html">Info Alley</a>
+          <br />
+          <a href="./neoncity.html">Hit the Streets</a>
+        </h3>
 
         <article class="column avatar">
           <img
@@ -291,6 +316,7 @@
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />Downloads and Resources
         </h1>
         <article class="column">
@@ -304,7 +330,7 @@
           abyss.
 
           <span class="col skew">
-            <img class="avatar3" src="../assets/gear.png" alt="bloody hand" />
+            <img class="avatar3" src="../assets/gear.png" alt="1930s gear" />
 
             <a href="../assets/docs/NeonCity-CharSheet.pdf" download
               >✓ Character Sheet</a
@@ -323,6 +349,7 @@
             id="page-top"
             class="page-top"
             src="../assets/penrosev1.png"
+            alt="penrose triangle"
           />The Developer
           <a href="#intro"
             ><button id="topBtn" class="btn">Back to Top</button></a

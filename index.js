@@ -27,18 +27,24 @@ function playEffect(audio) {
 function playAudio() {
   song.volume = 0.3;
   if (song.paused) {
-    autoplay = true;
+    song.autoplay = true;
+    song.loop = true;
     song.play();
   }
-  setInterval(playAudio, 1000);
+}
+
+function stopAudio() {
+  song.pause();
 }
 
 muteBtn.addEventListener('click', () => {
   if (song.muted) {
     song.muted = false;
+    sound.muted = false;
     // alert('Unmuted');
   } else {
     song.muted = true;
+    sound.muted = true;
     alert('Muted');
   }
 });
@@ -46,8 +52,6 @@ muteBtn.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
     spinIcon();
-  } else {
-    console.log('not scrolling');
   }
 });
 

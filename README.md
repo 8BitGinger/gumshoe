@@ -30,7 +30,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Screenshots
 
-![screenshot](./assets/readme/gumshoe-main-rm.png)
+![screenshot](./assets/readme/gumshoe-newlogo-rm.png)
 
 ![screenshot](./assets/readme/GIFMaker_me.gif)
 

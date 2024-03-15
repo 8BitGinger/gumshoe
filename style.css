@@ -800,6 +800,12 @@ select {
   padding: 2px;
 }
 
+.sub-title2 {
+  color: gray;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
 .box input {
   max-width: 150px;
   margin: auto;
@@ -1188,6 +1194,31 @@ select {
   scale: 1.1;
 }
 
+.container {
+  position: relative;
+}
+
+.form {
+  overflow: hidden;
+}
+
+.overlay3 {
+  background-color: rgba(91, 86, 69, 0.854);
+  height: 100%;
+  max-height: 550px;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'abril fatface', cursive;
+}
+
 .spin {
   animation: spin 5s linear infinite;
 }
@@ -1407,6 +1438,10 @@ select {
     background-size: contain;
   }
 
+  .overlay3 {
+    max-height: 220px;
+  }
+
   .stripe li {
     font-size: 20px;
     list-style: none;
@@ -1541,6 +1576,29 @@ select {
 
   .mute img {
     width: 55px;
+  }
+
+  .middle-headline {
+    font-size: 25px;
+  }
+
+  .cents {
+    font-size: 30px;
+  }
+
+  .cents-small {
+    font-size: 20px;
+  }
+
+  .right-headline p {
+    font-size: 15px;
+    width: fit-content;
+    margin-left: -15px;
+    align-items: center;
+  }
+
+  .headline-title h5 {
+    font-size: 40px;
   }
 
   .instructions {
